@@ -157,6 +157,7 @@ import org.springframework.web.context.support.StandardServletEnvironment;
  * @see #run(Class, String[])
  * @see #run(Class[], String[])
  * @see #SpringApplication(Class...)
+ * 注释
  */
 public class SpringApplication {
 
