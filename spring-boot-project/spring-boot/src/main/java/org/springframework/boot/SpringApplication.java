@@ -273,7 +273,7 @@ public class SpringApplication {
 		this.primarySources = new LinkedHashSet<>(Arrays.asList(primarySources));
 		//默认Servlet
 		this.webApplicationType = WebApplicationType.deduceFromClasspath();
-		//设置初始化,获得 ApplicationContextInitializer 工厂实例
+		//设置初始化 ApplicationContext,获得 ApplicationContextInitializer 工厂实例
 		setInitializers((Collection) getSpringFactoriesInstances(ApplicationContextInitializer.class));
 		setListeners((Collection) getSpringFactoriesInstances(ApplicationListener.class));
 		this.mainApplicationClass = deduceMainApplicationClass();
